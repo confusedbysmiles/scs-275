@@ -1,14 +1,15 @@
-ICS: Licensing Details
+SCS 275: Licensing Details
 ======================
 
 [Go up to the main ICS README file](readme.html) ([md](readme.md))
 
-This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) License. Copyright (c) 2018-2019 by Aaron Bloomfield.
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) License. Copyright (c) 2025 by Aaron Sam Servellon.
 
 ### Content
 
 I was obviously not the first to come up with the idea of an introduction to cybersecurity course, and many have paved the path before me.  Some of the content in this repository was taken, with permission, from the sources listed below.
 
+- [CS 3710 at the University of Virginia](https://aaronbloomfield.github.io/ics/) -- this course was created and released under a [CC BY-SA](http://creativecommons.org/licenses/by-sa/4.0/) license.
 - [EECS 388 at the University of Michigan](https://www.eecs.umich.edu/courses/eecs388.w18/) -- this course, under a grant from Intel, was created and released under a [CC BY-SA](http://creativecommons.org/licenses/by-sa/4.0/) license.  The assignments were based on this course.
 - Some of the content for the [security mindset slide set](../slides/security-mindset.html#/) was based on [CS 487 from the University of Illinois at Chicago](https://www.cs.uic.edu/~s/teaching/cs487/2017-fall/slides/Lecture-01-Mindset.pdf), which was based on [ECE 422 / CS 461 from the University of Illinois](https://courses.engr.illinois.edu/cs461/sp2018/), which is also released under a [CC BY-SA](http://creativecommons.org/licenses/by-sa/4.0/) license.
 - The ethics content is from [this module from Santa Clara University](https://www.scu.edu/ethics/focus-areas/technology-ethics/resources/an-introduction-to-cybersecurity-ethics/)

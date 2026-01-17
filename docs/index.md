@@ -1,4 +1,4 @@
-ICS: Documents
+SCS 275: Documents
 ==============
 
 [Go up to the main ICS readme](../readme.html) ([md](../readme.md))

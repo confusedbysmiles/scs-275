@@ -1,4 +1,4 @@
-ICS: Written Homework: Rational Paranoia
+SCS 275: Written Homework: Rational Paranoia
 ==========================================
 
 [Go up to the ICS HW page](index.html) ([md](index.md))
@@ -7,7 +7,7 @@ ICS: Written Homework: Rational Paranoia
 
 This assignment will focus on analyzing security in three different scenarios; two of which you choose from the list below, and one of which you create yourself.  The deliverable is a typed PDF document.  You will need to be familiar with the [Security Mindset slide set](../slides/security-mindset.html#/).
 
-You will want to see the [homeworks policies page](../uva/hw-policies.html) ([md](../uva/hw-policies.md)) for formatting and other details.  The due dates are listed on the Canvas landing page.
+You will want to see the [homeworks policies page](../shu/hw-policies.html) ([md](../shu/hw-policies.md)) for formatting and other details.  The due dates are listed on the Canvas landing page.
 
 ### Changelog
 
@@ -21,18 +21,18 @@ For each of the three total scenarios (two from our list, one of your own, as ex
 - *What security threats will you choose to defend against?*
 - *What countermeasures can you justify, in terms of costs and benefits?*
 	
-Answer each of the above in the form of a bulleted list, with brief justifications or explanations as necessary. State any critical assumptions you decide to make. Your grade will be based on the thoroughness, realism, and thoughtfulness of your analysis.  We are more interested in quality than quantity.  But if you want a length estimate, then one or two sentences for each "brief_explanation", below, is reasonable.  That being said, as long as you are being concise and not adding in fluff (see [here](../uva/hw-policies.html) ([md](../uva/hw-policies.md)) for a definition of fluff), they can be longer.
+Answer each of the above in the form of a bulleted list, with brief justifications or explanations as necessary. State any critical assumptions you decide to make. Your grade will be based on the thoroughness, realism, and thoughtfulness of your analysis.  We are more interested in quality than quantity.  But if you want a length estimate, then one or two sentences for each "brief_explanation", below, is reasonable.  That being said, as long as you are being concise and not adding in fluff (see [here](../shu/hw-policies.html) ([md](../shu/hw-policies.md)) for a definition of fluff), they can be longer.
 
 The following scenario is required:
 
-- UVA is starting to use mobile ID cards, and the company they are contracting with ([Atrium Campus Connect](https://atriumcampus.com)) has a [sketchy and self-contradictory privacy policy that indicates they will sell the information they collect](https://atriumcampus.com/privacy-policy/) (see section 2.5: they can disclose your private information to companies with which they have "joint marketing agreements"; also section 2.7).  How do you preserve your privacy when UVA is using such a system?
+- SHU is starting to use mobile ID cards, and the company they are contracting with ([Atrium Campus Connect](https://atriumcampus.com)) has a [sketchy and self-contradictory privacy policy that indicates they will sell the information they collect](https://atriumcampus.com/privacy-policy/) (see section 2.5: they can disclose your private information to companies with which they have "joint marketing agreements"; also section 2.7).  How do you preserve your privacy when SHU is using such a system?
 
 
 Pick one of the following scenarios.
 
 - You are the chief of police for a university where there are expected to be protests, both peaceful and less than peaceful.  How do you keep the students safe while allowing freedom of expression?
 - You are trying to secure your home network.  You have dozens of IoT devices, and individuals who install a lot of sketchy apps on their mobile phones.  How do you secure this home network?
-- UVA data breach!  The 2FA (two factor authentication) that UVA uses is exploitable.  A fix is in the works, but that will take two weeks to implement.  In the mean time, how do you secure UVA's logins?
+- SHU data breach!  The 2FA (two factor authentication) that UVA uses is exploitable.  A fix is in the works, but that will take two weeks to implement.  In the mean time, how do you secure SHU's logins?
 
 <!-- from summer 2025:
 - You are in charge of security for a political individual (politician, judge, candidate) who has received threats in this politically divisive era

@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>ICS: Written Homework: Rational Paranoia</title>
+  <title>SCS 275: Written Homework: Rational Paranoia</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -47,11 +47,11 @@
   </script>
 </head>
 <body>
-<h1 id="ics-written-homework-rational-paranoia">ICS: Written Homework: Rational Paranoia</h1>
-<p><a href="index.html">Go up to the ICS HW page</a> (<a href="index.md">md</a>) | <a href="hw-paranoia-tabbed.html">view tabbed version</a></p>
+<h1 id="scs-275-written-homework-rational-paranoia">SCS 275: Written Homework: Rational Paranoia</h1>
+<p><a href="index.html">Go up to the SCS 275 HW page</a> (<a href="index.md">md</a>) | <a href="hw-paranoia-tabbed.html">view tabbed version</a></p>
 <h3 id="overview">Overview</h3>
 <p>This assignment will focus on analyzing security in three different scenarios; two of which you choose from the list below, and one of which you create yourself. The deliverable is a typed PDF document. You will need to be familiar with the <a href="../slides/security-mindset.html#/">Security Mindset slide set</a>.</p>
-<p>You will want to see the <a href="../uva/hw-policies.html">homeworks policies page</a> (<a href="../uva/hw-policies.md">md</a>) for formatting and other details. The due dates are listed on the Canvas landing page.</p>
+<p>You will want to see the <a href="../SHU/hw-policies.html">homeworks policies page</a> (<a href="../SHU/hw-policies.md">md</a>) for formatting and other details. The due dates are listed on the Canvas landing page.</p>
 <h3 id="changelog">Changelog</h3>
 <p>Any changes to this page will be put here for easy reference. Typo fixes and minor clarifications are not listed here. So far there aren’t any significant changes to report.</p>
 <h3 id="assignment">Assignment</h3>
@@ -61,16 +61,16 @@
 <li><em>What security threats will you choose to defend against?</em></li>
 <li><em>What countermeasures can you justify, in terms of costs and benefits?</em></li>
 </ul>
-<p>Answer each of the above in the form of a bulleted list, with brief justifications or explanations as necessary. State any critical assumptions you decide to make. Your grade will be based on the thoroughness, realism, and thoughtfulness of your analysis. We are more interested in quality than quantity. But if you want a length estimate, then one or two sentences for each “brief_explanation”, below, is reasonable. That being said, as long as you are being concise and not adding in fluff (see <a href="../uva/hw-policies.html">here</a> (<a href="../uva/hw-policies.md">md</a>) for a definition of fluff), they can be longer.</p>
+<p>Answer each of the above in the form of a bulleted list, with brief justifications or explanations as necessary. State any critical assumptions you decide to make. Your grade will be based on the thoroughness, realism, and thoughtfulness of your analysis. We are more interested in quality than quantity. But if you want a length estimate, then one or two sentences for each “brief_explanation”, below, is reasonable. That being said, as long as you are being concise and not adding in fluff (see <a href="../SHU/hw-policies.html">here</a> (<a href="../SHU/hw-policies.md">md</a>) for a definition of fluff), they can be longer.</p>
 <p>The following scenario is required:</p>
 <ul>
-<li>UVA is starting to use mobile ID cards, and the company they are contracting with (<a href="https://atriumcampus.com">Atrium Campus Connect</a>) has a <a href="https://atriumcampus.com/privacy-policy/">sketchy and self-contradictory privacy policy that indicates they will sell the information they collect</a> (see section 2.5: they can disclose your private information to companies with which they have “joint marketing agreements”; also section 2.7). How do you preserve your privacy when UVA is using such a system?</li>
+<li>SHU is starting to use mobile ID cards, and the company they are contracting with (<a href="https://atriumcampus.com">Atrium Campus Connect</a>) has a <a href="https://atriumcampus.com/privacy-policy/">sketchy and self-contradictory privacy policy that indicates they will sell the information they collect</a> (see section 2.5: they can disclose your private information to companies with which they have “joint marketing agreements”; also section 2.7). How do you preserve your privacy when SHU is using such a system?</li>
 </ul>
 <p>Pick one of the following scenarios.</p>
 <ul>
 <li>You are the chief of police for a university where there are expected to be protests, both peaceful and less than peaceful. How do you keep the students safe while allowing freedom of expression?</li>
 <li>You are trying to secure your home network. You have dozens of IoT devices, and individuals who install a lot of sketchy apps on their mobile phones. How do you secure this home network?</li>
-<li>UVA data breach! The 2FA (two factor authentication) that UVA uses is exploitable. A fix is in the works, but that will take two weeks to implement. In the mean time, how do you secure UVA’s logins?</li>
+<li>SHU data breach! The 2FA (two factor authentication) that SHU uses is exploitable. A fix is in the works, but that will take two weeks to implement. In the mean time, how do you secure SHU’s logins?</li>
 </ul>
 <!-- from summer 2025:
 - You are in charge of security for a political individual (politician, judge, candidate) who has received threats in this politically divisive era
@@ -79,7 +79,7 @@
 - You are the computing security individual in charge at a company who handles military contracts with the US government, and as a result of the recent invasion of Ukraine by Russia, you are a target for Russian hackers
 -->
 <!-- from fall 2024:
-- You are now in charge of ensuring that UVA students can express their first amendment rights through protest, while also ensuring the safety of the protesters and the UVA community.
+- You are now in charge of ensuring that SHU students can express their first amendment rights through protest, while also ensuring the safety of the protesters and the SHU community.
     - NOTE: This is a *security* analysis, not a chance for political opining.  Regardless of what side you are on, focus on the security aspects.  There are many great ways to express your political opinions, but doing so in the answer to this question on this homework is not one of them.  As long as you focus on the security aspects, any political views that come out will have zero effect on your grade for this question.
 - You are in charge of designing a new TSA airport checking process.
 - You are tasked with creating a policy to ensure the secure voting in the 2024 presidential election.
@@ -88,7 +88,7 @@
 -->
 <!-- from summer 2024:
 - You are trying to secure your home network.  You have dozens of IoT devices, and individuals who install a lot of sketchy apps on their mobile phones.  How do you secure this home network?
-- You are now in charge of ensuring that UVA protesters can express their first amendment rights through protest, while also ensuring the safety of bot the protesters and the UVA community.  How do you do this?
+- You are now in charge of ensuring that SHU protesters can express their first amendment rights through protest, while also ensuring the safety of bot the protesters and the SHU community.  How do you do this?
     - NOTE: This is a *security* analysis, not a chance for political opining.  Regardless of what side you are on, focus on the security aspects.  There are many great ways to express your political opinions, but doing so in the answer to this question on this homework is not one of them.  As long as you focus on the security aspects, any political views that come out will have zero effect on your grade for this question.
 - There is a [privacy rights bill](https://www.commerce.senate.gov/2024/4/committee-chairs-cantwell-mcmorris-rodgers-unveil-historic-draft-comprehensive-data-privacy-legislation) that is currently under consideration (as of May 2024) in Congress.  How do you ensure the privacy of Americans through this act, while not harming Internet security and ensuring that online businesses can properly function?
     - Again, this is meant to be a security analysis, not your personal views about data mongering (which we'll talk about later this semester)
@@ -98,13 +98,13 @@
 - A high profile political candidate is being arraigned for a series of alleged crimes.  How would you ensure that this person does not cause any "problems" via his/her social media postings.  Note: this needs to be an *apolitical* discussion.
 - Generative AI, such as ChatGPT, can be used to complete assignments -- both essay and coding.  How would you prevent cheating in a college level course in the era of generative AI?
 - There is a high probability that the government will have a shutdown at the end of this September (2023).  How would you ensure cybersecurity during the government shutdown?  Note that this needs to be a realistic analysis -- saying "have both political parties get along and all agree" is not, unfortunately, very realistic these days.
-- [Phishing scams](https://en.wikipedia.org/wiki/Phishing) are the single biggest vulnerability for UVA's networks.  Other than the one-a-semester phishing scam test, discussed in lecture, how would you improve the cybersecurity of UVA with regard to the phishing scams?
+- [Phishing scams](https://en.wikipedia.org/wiki/Phishing) are the single biggest vulnerability for SHU's networks.  Other than the one-a-semester phishing scam test, discussed in lecture, how would you improve the cybersecurity of SHU with regard to the phishing scams?
 -->
 <!-- from summer 2023:
 - You have to plan for the next anniversary of the [Unite the Right](https://en.wikipedia.org/wiki/Unite_the_Right_rally) rally, again in Charlottesville
 - You are hired by [WillowTree](https://willowtreeapps.com/) to help secure their servers from corporate espionage
 - You are grading homework 1 submissions (this assignment) for a class of 80 students
-- You are in charge of the security for a home football game here at UVa
+- You are in charge of the security for a home football game here at SHU
 - You are in charge of making an election voting system that is both secure and has auditing capabilities
 -->
 <!-- from spring 2023:
@@ -116,14 +116,14 @@
 <!-- from summer 2022:
 - You are a company who handles military contracts with the US government, and as a result of the recent invasion of Ukraine by Russia, you are a target for Russian hackers.  How do you secure your system?
 - Your organization is going to invest in cryptocurrency.  Although you may not know much about it, you know more than the head of the company, so they turn to you for how to keep it secure.
-- UVA data breach!  The 2FA (two factor authentication) that UVA uses is exploitable.  A fix is in the works, but that will take two weeks to implement.  In the mean time, how do you secure UVA's logins?
+- SHU data breach!  The 2FA (two factor authentication) that SHU uses is exploitable.  A fix is in the works, but that will take two weeks to implement.  In the mean time, how do you secure SHU's logins?
 - For the upcoming election in the fall, you are the person in charge of security for your candidate.  This involves logins, social media, and email accounts.
 -->
 <!-- from summer 2021:
 - You were hired by the Pilgrim Pipeline Company to ensure their cybersecurity, including against ransomware attacks.  However, the company does not have a culture of secure computer habits.  How do you ensure the security of the company?
 - You manage a store, and mask rules have been relaxed by the CDC.  Those relaxed rules state that a fully vaccinated adult does not need to wear a mask.  However, it's hard to tell who is fully vaccinated, and who is not vaccinated but resistant to wearing a mask.  How do you protect your customers?
-- You are in charge of the security for a home football game here at UVa -- assume that this is after the pandemic is fully over, and strangers can sit next to each other again.
-- State U just won a basketball championship!  Unlike UVa's win in 2019, there is expected to be violence and rioting by the student body.  How do you ensure safety on campus?
+- You are in charge of the security for a home football game here at SHU -- assume that this is after the pandemic is fully over, and strangers can sit next to each other again.
+- State U just won a basketball championship!  Unlike SHU's win in 2019, there is expected to be violence and rioting by the student body.  How do you ensure safety on campus?
 -->
 <!-- from summer 2020:
 - You are supporting an application for which the group that will be using it is not computer savvy at all.  How do you ensure the application's security when they all have full access to edit and delete items in the system?
@@ -149,7 +149,7 @@
 - You have to plan for the next anniversary of the [Unite the Right](https://en.wikipedia.org/wiki/Unite_the_Right_rally) rally, again in Charlottesville
 - You are hired by [WillowTree](https://willowtreeapps.com/) to help secure their servers from corporate espionage
 - You are grading homework 1 submissions for a class of 80 students
-- You are in charge of the security for a home football game here at UVa
+- You are in charge of the security for a home football game here at SHU
 - You are in charge of making an election voting system that is both secure and has auditing capabilities
 -->
 <p>In addition, come up with another scenario from everyday life that we have not discussed in class. Your choice can be directly related to computer security, but it does not have to be.</p>
